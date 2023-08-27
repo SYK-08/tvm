@@ -27,7 +27,7 @@
 
 Apache TVM is a compiler stack for deep learning systems. It is designed to close the gap between the
 productivity-focused deep learning frameworks, and the performance- and efficiency-focused hardware backends.
-TVM works with deep learning frameworks to provide end to end compilation to different backends.
+TVM works with deep learning frameworks to provide end-to-end compilation to different backends.
 
 License
 -------
@@ -41,13 +41,13 @@ place to start.
 
 Contribute to TVM
 -----------------
-TVM adopts apache committer model, we aim to create an open source project that is maintained and owned by the community.
+TVM adopts the Apache committer model, we aim to create an open-source project that is maintained and owned by the community.
 Check out the [Contributor Guide](https://tvm.apache.org/docs/contribute/).
 
-Acknowledgement
+Acknowledgment
 ---------------
 We learned a lot from the following projects when building TVM.
 - [Halide](https://github.com/halide/Halide): Part of TVM's TIR and arithmetic simplification module
-  originates from Halide. We also learned and adapted some part of lowering pipeline from Halide.
+  originates from Halide. We also learned and adapted some parts of lowering the pipeline from Halide.
 - [Loopy](https://github.com/inducer/loopy): use of integer set analysis and its loop transformation primitives.
 - [Theano](https://github.com/Theano/Theano): the design inspiration of symbolic scan operator for recurrence.
